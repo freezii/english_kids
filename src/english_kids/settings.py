@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'dashboard',
-    *EXTERNAL_APPS
+    'rest_framework',
+    'corsheaders'
 ]
 
 
