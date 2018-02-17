@@ -1,1 +1,1 @@
-web: gunicorn english_kids.wsgi --log-file -
+web: gunicorn src.english_kids.wsgi --log-file -
