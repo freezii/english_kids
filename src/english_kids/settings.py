@@ -25,7 +25,7 @@ SECRET_KEY = '2wv*i(5cn^7_v#=$f64gwp_d6m+9sm8foe(^at%sazy4y5)qpu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['english-kids.herokuapp.com']
 EXTERNAL_APPS = [
     'rest_framework',
     'corsheaders'
