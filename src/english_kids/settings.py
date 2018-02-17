@@ -58,7 +58,7 @@ MIDDLEWARE = [
 CORS_ORIGIN_WHITELIST = (
     'localhost:4200',
 )
-ROOT_URLCONF = 'english_kids.urls'
+ROOT_URLCONF = 'src.english_kids.urls'
 
 TEMPLATES = [
     {
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'english_kids.wsgi.application'
+WSGI_APPLICATION = 'src.english_kids.wsgi.application'
 
 
 # Database
